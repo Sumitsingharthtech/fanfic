@@ -1,0 +1,69 @@
+.Library_main {
+    background-image: url(../../Assets/Images/libary.png);
+    width: 30%;
+    background-size: cover;
+    align-self: center;
+    height: 500px;
+    margin: 0 auto;
+    z-index: 0;
+}
+.create-bg{
+
+  padding-top: 7rem;
+}
+.lib-bold-header{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+.lib-bold h1{
+  left: 12rem;
+}
+
+.library-image{
+
+ text-align: center;
+}
+
+  .Library_Navbar {
+    height: 110px;
+    background-color: #a06263;
+    z-index: 0;
+}
+.Library_Navbar h3 {
+    color: white;
+  }
+  .libraru_buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    width: 100%;
+  }
+  @media(max-width: 900px){
+    .libraru_buttons{
+      margin-left: 14%;
+    }
+  }
+  .libraru_buttons h3 {
+    color: white;
+  }
+  @media screen and (max-width: 425px) {
+    .libraru_buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 64%;
+      margin-left: 14%;
+    }
+    .Library_main {
+      background-image: url("../../Assets/Images/libary.png");
+      width: 75%;
+      background-size: cover;
+      align-self: center;
+      height: 293px;
+      margin-left: 10%;
+    }
+  }
+  
